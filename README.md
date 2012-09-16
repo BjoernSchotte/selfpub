@@ -18,6 +18,14 @@ Optionally, you can also use the following tools:
 
 This repository only provides the build environment. Your ebook will be written in another directory outside this directory and should have a special directory layout. You can refer to (and clone) this [selfpub-example](https://github.com/BjoernSchotte/selfpub-example) repository to see how to organize your ebook content like chapters, images, cover image, epub metadata and so on.
 
+Example usage:
+
+```
+./build.sh /Users/bjoern/Code/selfpub-example de de-selfpub-is-here
+```
+
+The directory ```/Users/bjoern/Code/selfpub-example``` is an example ebook directory structure which contains all the single chapters of the ebook in markdown format, images and so on. "de" is the language indicator while ```de-selfpub-is-here``` will be the basename of the output files (which generate .epub and .mobi from it).
+
 # Supported output formats
 
 Theoretically, every output format that's supported by pandoc will be supported, too. The build.sh shell script itself indeed provides the following output formats:
