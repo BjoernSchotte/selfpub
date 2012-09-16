@@ -8,7 +8,7 @@ A small self-publishing platform for eBooks, suited for the needs of Geeks. Yes,
 The tool relies on the following 3rd party tools which you should install into your PATH:
 
  * [pandoc](http://johnmacfarlane.net/pandoc/)
- * [kindlegen](http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765211) if you want to generate a Kindle eBook
+ * [kindlegen](http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765211) if you want to generate a Kindle eBook. Put the executable into PATH, i.e. ```/usr/bin```
 
 Optionally, you can also use the following tools:
 
@@ -24,7 +24,7 @@ Example usage:
 ./build.sh /Users/bjoern/Code/selfpub-example de de-selfpub-is-here
 ```
 
-The directory ```/Users/bjoern/Code/selfpub-example``` is an example ebook directory structure which contains all the single chapters of the ebook in markdown format, images and so on. "de" is the language indicator while ```de-selfpub-is-here``` will be the basename of the output files (which generate .epub and .mobi from it).
+The directory ```/Users/bjoern/Code/selfpub-example``` is an example ebook directory structure which contains all the single chapters of the ebook in markdown format, images and so on. ```de``` is the language indicator while ```de-selfpub-is-here``` will be the basename of the output files (which generate .epub and .mobi from it).
 
 # Supported output formats
 
