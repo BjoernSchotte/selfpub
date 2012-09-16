@@ -1,7 +1,10 @@
-selfpub
-=======
+# selfpub
 
 A small self-publishing platform for eBooks, suited for the needs of Geeks. Yes, you can use tools like Calibre (free) or Scrivener (commercial) for self-publishing, but geeks want to write their texts as plain-text in an editor they like and (co-)create books via git(hub).
+
+# license
+
+This is published under MIT license.
 
 # 3rd party tools
 
