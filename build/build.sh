@@ -19,7 +19,7 @@ DEST_EPUB_COVERIMAGE="$DEST/cover/$LANGUAGE-cover.jpg"
 DEST_OUTPUT_EPUB="$DEST_OUTPUT/$BOOKBASEFILE.epub"
 
 # chapter directory
-CHAPTER_DIR="$DEST/$LANGUAGE/"
+CHAPTER_DIR="$DEST/$LANGUAGE"
 CHAPTERS=""
 
 # ePub metadata
@@ -37,7 +37,6 @@ echo "Building $DEST ..."
 echo "Collecting chapter files ..."
 for i in `ls -1 $CHAPTER_DIR`
 do
-  echo $i
   CHAPTER_FILE_FULLPATH="$CHAPTER_DIR/$i"
   CHAPTERS="$CHAPTERS $CHAPTER_FILE_FULLPATH"
 done
