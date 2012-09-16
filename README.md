@@ -24,6 +24,7 @@ This repository only provides the build environment. Your ebook will be written 
 Example usage:
 
 ```
+cd build
 ./build.sh /Users/bjoern/Code/selfpub-example de de-selfpub-is-here
 ```
 
