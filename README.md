@@ -36,3 +36,7 @@ Theoretically, every output format that's supported by pandoc will be supported,
  * epub
  * kindle/mobi
 
+# contributing
+
+If you want to contribute, please create a feature branch and open a pull request, or open githu
+b issues if you want to report bugs.
