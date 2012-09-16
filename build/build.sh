@@ -8,15 +8,18 @@ KINDLEGEN=kindlegen
 
 # path to destination ebook dir in specific layout
 DEST=$1
-BOOKBASEFILE=$2
+# language of the book, ie. "en" or "de" (will be appended to DEST path)
+LANGUAGE=$2
+# base filename of the output
+BOOKBASEFILE=$3
 
 # output directory and output files
 DEST_OUTPUT="$DEST/out"
-DEST_EPUB_COVERIMAGE="$DEST/cover/cover.jpg"
+DEST_EPUB_COVERIMAGE="$DEST/cover/$LANGUAGE-cover.jpg"
 DEST_OUTPUT_EPUB="$DEST_OUTPUT/$BOOKBASEFILE.epub"
 
 # chapter directory
-CHAPTER_DIR="$DEST/chapters"
+CHAPTER_DIR="$DEST/$LANGUAGE/"
 CHAPTERS=""
 
 # ePub metadata
