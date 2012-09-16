@@ -24,7 +24,7 @@ Example usage:
 ./build.sh /Users/bjoern/Code/selfpub-example de de-selfpub-is-here
 ```
 
-The directory ```/Users/bjoern/Code/selfpub-example``` is an example ebook directory structure which contains all the single chapters of the ebook in markdown format, images and so on. ```de``` is the language indicator while ```de-selfpub-is-here``` will be the basename of the output files (which generate .epub and .mobi from it).
+The directory ```/Users/bjoern/Code/selfpub-example``` is an example ebook directory structure (see [example repository](https://github.com/BjoernSchotte/selfpub-example) which contains all the single chapters of the ebook in markdown format, images and so on. ```de``` is the language indicator while ```de-selfpub-is-here``` will be the basename of the output files (which generate .epub and .mobi from it).
 
 # Supported output formats
 
