@@ -44,8 +44,8 @@ echo "found chapter files: $CHAPTERS"
 
 # generating epub format
 echo "Generating ePub ..."
-pandoc -f markdown -t epub --epub-metadata=$DEST_EPUB_METADATA $PANDOC_EPUB_COVERIMAGE -o $DEST_OUTPUT_EPUB $CHAPTERS
+$PANDOC -f markdown -t epub --epub-metadata=$DEST_EPUB_METADATA $PANDOC_EPUB_COVERIMAGE -o $DEST_OUTPUT_EPUB $CHAPTERS
 
 # generating kindle
 echo "Generating .mobi ..."
-kindlegen $DEST_OUTPUT_EPUB
+$KINDLEGEN $DEST_OUTPUT_EPUB
